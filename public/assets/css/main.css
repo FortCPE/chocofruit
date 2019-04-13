@@ -12,6 +12,7 @@ body{
   font-weight: normal;
   transition: 0.3s;
   text-decoration: none;
+  font-size: 18px;
 }
 .nav-link:hover{
   font-family: 'Kanit';
@@ -1073,4 +1074,7 @@ body {
   padding-top: 90px;
   padding-bottom: 90px;
   background-image: url("../images/mbr-1920x1225.jpg");
+}
+.navbar{
+  padding: 0.9rem 1rem;
 }

@@ -32,7 +32,7 @@ function showSidenav() {
     // Must be number value. Adjust as needed.
     $sidenav.css({
       'width':'200px',
-      'background-color':'transparent',
+      'background-color':'white',
       'height':'100%'
     });
   }, 10);

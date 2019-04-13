@@ -19,9 +19,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-md fixed-top font-weight-bold">
+	<nav class="navbar navbar-expand-md font-weight-bold" style="background-color: white;">
         <a class="navbar-brand p-2" href="#">
-           <img src="assets/images/logo150.png" style="width: 100%;">
+           <img src="assets/images/logo150.png" style="width: 200px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
