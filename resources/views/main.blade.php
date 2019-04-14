@@ -14,17 +14,24 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/theme/css/sidenav.css">
     <link rel="stylesheet" type="text/css" href="assets/theme/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#"><i class="fas fa-home"></i>&nbsp; Home</a>
+        <a href="#"><i class="fas fa-concierge-bell"></i>&nbsp; Services</a>
+        <a href="#"><i class="fas fa-credit-card"></i>&nbsp; Prices</a>
+        <a href="#"><i class="fas fa-phone"></i>&nbsp; Contact Us</a>
+      </div>
+    </div>
 	<nav id="navbar" class="navbar fixed-top navbar-expand-md font-weight-bold" style="background-color: transparent;">
         <a class="navbar-brand p-2" href="#">
            <img id="logo" src="assets/images/logo150.png" style="width: 100%;">
         </a>
-        <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler text-light" type="button" onclick="openNav()">
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
@@ -54,8 +61,6 @@
                 </li>
             </ul>
         </div>
-    </nav>
-    <nav class="sidenav">
     </nav>
     <section class="header1 cid-rnvY8t26A7 mbr-parallax-background" id="header1-4">
         <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(0, 0, 0);">
@@ -124,7 +129,6 @@
     <script src="assets/smoothscroll/smooth-scroll.js"></script>
     <script src="assets/slidervideo/script.js"></script>
     <script src="assets/theme/js/fontawesome.min.js"></script>
-	<script src="assets/theme/js/sidenav.js"></script>
     <script type="text/javascript">
         var navlink = document.querySelector(".nav-link");
         var navlink_hover = document.querySelector(".nav-link:hover");
@@ -139,6 +143,15 @@
             document.getElementById("navbar").style.background = "transparent";
           }
         } 
+    </script>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
     </script>
 </body>
 
