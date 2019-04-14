@@ -8,7 +8,7 @@ body{
 }
 .nav-link{
   font-family: 'Kanit';
-  color: #555;
+  color: #CCC;
   font-weight: normal;
   transition: 0.3s;
   text-decoration: none;
@@ -16,8 +16,8 @@ body{
 }
 .nav-link:hover{
   font-family: 'Kanit';
-  color: #000;
-  box-shadow: 0px 3px 0px black;
+  color: #FFF;
+  box-shadow: 0px 3px 0px white;
 }
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
@@ -37,35 +37,36 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
+.display-x {
+  font-size: 2.25rem;
+}
+.display-x > .mbr-iconfont {
+  font-size: 5.8rem;
+}
 .display-2 {
-  font-family: 'Rubik', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -1072,9 +1073,47 @@ body {
 }
 .cid-rnvY8t26A7 {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 55px;
   background-image: url("../images/mbr-1920x1225.jpg");
+}
+.cid-rnvY8t26A8 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+/*  background-image: url("../images/mbr-1-1920x1281.jpg");
+*/
+  background-color: #FFF;
 }
 .navbar{
   padding: 0.9rem 1rem;
+  transition: 0.3s;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+.first{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #FFF;
+}
+.second{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #523329;
+}
+.third{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #ffd95f;
+}
+.fouth{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #76dd76;
+}
+.about{
+  -webkit-box-shadow: 0 8px 6px -6px #CCC;
+     -moz-box-shadow: 0 8px 6px -6px #CCC;
+          box-shadow: 0 8px 6px -6px #CCC;
+          z-index: 999;
 }

@@ -19,11 +19,11 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-md font-weight-bold" style="background-color: white;">
+	<nav id="navbar" class="navbar fixed-top navbar-expand-md font-weight-bold" style="background-color: transparent;">
         <a class="navbar-brand p-2" href="#">
-           <img src="assets/images/logo150.png" style="width: 200px;">
+           <img id="logo" src="assets/images/logo150.png" style="width: 100%;">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+        <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
@@ -31,12 +31,17 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        &nbsp;<i class="fas fa-home"></i>&nbsp; หน้าหลัก
+                        &nbsp;<i class="fas fa-home"></i>&nbsp; Home
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        &nbsp;<i class="fas fa-info-circle"></i>&nbsp; เกี่ยวกับ
+                        &nbsp;<i class="fas fa-concierge-bell"></i>&nbsp; Services
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fas fa-credit-card"></i>&nbsp; Prices
                     </a>
                 </li>
                
@@ -44,12 +49,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        &nbsp;<i class="fab fa-github"></i>&nbsp; Github
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        &nbsp;<i class="fas fa-sign-in-alt"></i>&nbsp; Login
+                        &nbsp;<i class="fas fa-phone"></i>&nbsp; Contact Us
                     </a>
                 </li>
             </ul>
@@ -58,35 +58,62 @@
     <nav class="sidenav">
     </nav>
     <section class="header1 cid-rnvY8t26A7 mbr-parallax-background" id="header1-4">
-
-    
-
-    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 0, 0);">
-    </div>
-
-    <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
-                    FULL WIDTH INTRO
-                </h1>
-                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
-                    Beautiful mobile websites
-                </h3>
-                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
-                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.
-                </p>
-                <div class="mbr-section-btn align-center">
-                    <a class="btn btn-md btn-primary display-4" href="https://mobirise.co">
-                        <span class="mbr-iconfont mbri-file"></span>LEARN MORE</a>
-                    <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.co">
-                        <span class="mbr-iconfont mbri-idea"></span>LIVE DEMO</a>
+        <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(0, 0, 0);">
+        </div>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="mbr-white col-md-10">
+                    <h1 class="mbr-section-title align-center display-1 pb-3 thai">
+                        รับทำเว็บไซต์
+                    </h1>
+                    <h3 class="mbr-section-subtitle align-center mbr-light pb-3 display-5 thai">
+                        บริการรับทำเว็บไซต์ครบวงจร ดูแลแก้ไขระบบ
+                    </h3>
                 </div>
             </div>
         </div>
-    </div>
-
 	</section>
+    <section class="about">
+        <div class="container-fluid" style="padding: 0;margin: 0;">
+            <div class="row">
+                <div class="col-sm-3" style="padding-right: 0">
+                    <section class="first text-center">
+                        <h3 class="thai">เว็บไซต์ธุรกิจ</h3><br>
+                        <i style="font-size: 72px;" class="fa fa-fw fa-globe-asia"></i>
+                    </section>
+                </div>
+                <div class="col-sm-3 padding-0">
+                    <section class="second text-center">
+                        <h3 class="thai text-light">เว็บไซต์โรงเรียน</h3><br>
+                        <i style="font-size: 72px;" class="fa fa-fw fa-graduation-cap text-light"></i>
+                    </section>
+                </div>
+                <div class="col-sm-3 padding-0">
+                    <section class="third text-center">
+                        <h3 class="thai text-light">ระบบ ERP</h3><br>
+                        <i style="font-size: 72px;" class="fa fa-fw fa-archive text-light"></i>
+                    </section>
+                </div>
+                <div class="col-sm-3 padding-0">
+                    <section class="fouth text-center">
+                        <h3 class="thai text-light">ระบบอื่นๆ</h3><br>
+                        <i style="font-size: 72px;" class="fa fa-fw fa-book text-light"></i>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header1 cid-rnvY8t26A8 mbr-parallax-background" id="header1-4">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-x thai">
+                        <i class="fa fa-fw fa-concierge-bell"></i>&nbsp;บริการของเรา
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/popper/popper.min.js"></script>
     <script src="assets/tether/tether.min.js"></script>
@@ -98,6 +125,21 @@
     <script src="assets/slidervideo/script.js"></script>
     <script src="assets/theme/js/fontawesome.min.js"></script>
 	<script src="assets/theme/js/sidenav.js"></script>
+    <script type="text/javascript">
+        var navlink = document.querySelector(".nav-link");
+        var navlink_hover = document.querySelector(".nav-link:hover");
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.background = "#000";
+            document.getElementById("navbar").style.padding = "0rem 1rem";
+          } else {
+            document.getElementById("navbar").style.padding = "0.5rem 1rem";
+            document.getElementById("navbar").style.background = "transparent";
+          }
+        } 
+    </script>
 </body>
 
 </html>

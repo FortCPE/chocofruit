@@ -31,9 +31,10 @@ function showSidenav() {
   window.setTimeout(function() {
     // Must be number value. Adjust as needed.
     $sidenav.css({
-      'width':'200px',
+      'width':'100%',
       'background-color':'white',
-      'height':'100%'
+      'height':'100%',
+      'position':'fixed'
     });
   }, 10);
   $sidenav.addClass('show');
