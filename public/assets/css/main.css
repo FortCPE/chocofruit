@@ -802,9 +802,22 @@ body {
 }
 .card-hover:hover{
   margin-top: -8px;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
 }
 @media only screen and (max-width: 600px) {
   .card-hover:hover{
     margin-top: 0px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
   }
+}
+th{
+  font-weight: normal;
+  text-align: center;
+}
+td{
+  text-align: center;
 }

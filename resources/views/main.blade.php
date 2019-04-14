@@ -157,6 +157,107 @@
                     </h1>
                 </div>
             </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered thai" style="background-color: white;">
+                            <thead>
+                                <th>คุณสมบัติ</th>
+                                <th>Starter</th>
+                                <th>Standard</th>
+                                <th>Premium</th>
+                                <th>Superior</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ราคา</td>
+                                    <td>3,750 บาท</td>
+                                    <td>6,550 บาท</td>
+                                    <td>12,350 บาท</td>
+                                    <td>25,550 บาท</td>
+                                </tr>
+                                <tr>
+                                    <td>จำนวนหน้าเว็บ</td>
+                                    <td>1 หน้า</td>
+                                    <td>3 หน้า</td>
+                                    <td>5 หน้า</td>
+                                    <td>10 หน้า</td>
+                                </tr>
+                                <tr>
+                                    <td>แก้ไขได้</td>
+                                    <td>1 ครั้ง/ปี</td>
+                                    <td>1 ครั้ง/ปี</td>
+                                    <td>2 ครั้ง/ปี</td>
+                                    <td>3 ครั้ง/ปี</td>
+                                </tr>
+                                <tr>
+                                    <td>ออกแบบโลโก้</td>
+                                    <td><i class="fa fa-fw fa-times-circle" style="color: red"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>ระบบจัดการหลังบ้าน</td>
+                                    <td><i class="fa fa-fw fa-times-circle" style="color: red"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>ระบบแจ้งชำระเงิน</td>
+                                    <td><i class="fa fa-fw fa-times-circle" style="color: red"></i></td>
+                                    <td><i class="fa fa-fw fa-times-circle" style="color: red"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>ระบบร้านค้าออนไลน์</td>
+                                    <td><i class="fa fa-fw fa-times-circle" style="color: red"></i></td>
+                                    <td><i class="fa fa-fw fa-times-circle" style="color: red"></i></td>
+                                    <td><i class="fa fa-fw fa-times-circle" style="color: red"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>SSL Certificate</td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge badge-success">ฟรี</span>&nbsp;แผนที่ Google Map</td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge badge-success">ฟรี</span>&nbsp;Web Hosting 1 ปี</td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge badge-success">ฟรี</span>&nbsp;โดเมนเนม .com / .net</td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge badge-success">ฟรี</span>&nbsp;สอนใช้งานระบบ</td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
