@@ -37,17 +37,17 @@
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#home">
                         &nbsp;<i class="fas fa-home"></i>&nbsp; Home
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#services">
                         &nbsp;<i class="fas fa-concierge-bell"></i>&nbsp; Services
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#prices">
                         &nbsp;<i class="fas fa-credit-card"></i>&nbsp; Prices
                     </a>
                 </li>
@@ -55,14 +55,14 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#contact">
                         &nbsp;<i class="fas fa-phone"></i>&nbsp; Contact Us
                     </a>
                 </li>
             </ul>
         </div>
     </nav>
-    <section class="header1 cid-rnvY8t26A7 mbr-parallax-background" id="header1-4">
+    <section class="header1 cid-rnvY8t26A7 mbr-parallax-background" id="home">
         <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(0, 0, 0);">
         </div>
         <div class="container">
@@ -108,7 +108,7 @@
             </div>
         </div>
     </section>
-    <section class="header1 cid-rnvY8t26A8 mbr-parallax-background" id="header1-4">
+    <section class="header1 cid-rnvY8t26A8 mbr-parallax-background" id="services">
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-md-10">
@@ -148,7 +148,7 @@
             </div>
         </div>
     </section>
-    <section class="prices">
+    <section class="prices" id="prices">
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-md-10">
@@ -293,6 +293,17 @@
         function closeNav() {
           document.getElementById("myNav").style.width = "0%";
         }
+        $('a[href*="#"]').on('click', function(e) {
+          e.preventDefault()
+
+          $('html, body').animate(
+            {
+              scrollTop: $($(this).attr('href')).offset().top,
+            },
+            500,
+            'linear'
+          )
+        })
     </script>
 </body>
 
