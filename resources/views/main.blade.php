@@ -72,7 +72,7 @@
                         รับทำเว็บไซต์
                     </h1>
                     <h3 class="mbr-section-subtitle align-center mbr-light pb-3 display-5 thai">
-                        บริการรับทำเว็บไซต์ครบวงจร ดูแลแก้ไขระบบ
+                        บริการรับทำเว็บไซต์ครบวงจร สะดวก ปลอดภัย รวดเร็ว
                     </h3>
                 </div>
             </div>
@@ -112,8 +112,48 @@
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-md-10">
-                    <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-x thai">
+                    <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-x thai">
                         <i class="fa fa-fw fa-concierge-bell"></i>&nbsp;บริการของเรา
+                    </h1>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-sm-4">
+                    <div class="card card-hover" style="margin-bottom: 10px;">
+                        <div class="card-body text-center thai">
+                            <h4 class="service-title">สร้างเว็บไซต์</h4><br>
+                            <span style="color: #555;">รับทำเว็บไซต์ ออกแบบตามความต้องการของลูกค้า หน้าเว็บแสดงผล Responsive</span><br><br>
+                            <a class="btn btn-outline-warning">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card card-hover" style="margin-bottom: 10px;">
+                        <div class="card-body text-center thai">
+                            <h4 class="service-title">แก้ไขเว็บไซต์</h4><br>
+                            <span style="color: #555;">รับแก้ไขดูแลเว็บไซต์ต่อจากผู้ให้บริการคนเก่า ทำให้เว็บไซต์สามารถกลับมาใช้งานได้ปกติ</span><br><br>
+                            <a class="btn btn-outline-warning">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card card-hover" style="margin-bottom: 10px;">
+                        <div class="card-body text-center thai">
+                            <h4 class="service-title">ออกแบบระบบ</h4><br>
+                            <span style="color: #555;">รับออกแบบระบบตามที่ลูกค้าต้องการ ระบบห้องพัก ระบบเลือกตั้ง ระบบชุมนุม หรือ อื่นๆ</span><br><br>
+                            <a class="btn btn-outline-warning">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prices">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-x thai">
+                        <i class="fa fa-fw fa-credit-card"></i>&nbsp;อัตราค่าบริการ
                     </h1>
                 </div>
             </div>
