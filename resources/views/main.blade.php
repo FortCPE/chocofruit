@@ -78,9 +78,29 @@
             </div>
         </div>
 	</section>
-    <section class="about">
+    <section class="about" style="width: 100%;">
         <div class="container-fluid" style="padding: 0;margin: 0;">
             <div class="row">
+                <div class="col-sm-12">
+                    <section class="contact">
+                        <div class="text-center">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <i class="fa fa-fw fa-phone"></i>&nbsp;09-5530-5914
+                                </div>
+                                <div class="col-sm-3">
+                                    <i class="fa fa-fw fa-envelope"></i>&nbsp;fort2002@hotmail.com
+                                </div>
+                                <div class="col-sm-3">
+                                    <i class="fa fa-fw fa-comments"></i>&nbsp;(Line) fort22lert
+                                </div>
+                                <div class="col-sm-3">
+                                    <i class="fa fa-fw fa-thumbs-up"></i>&nbsp;(Facebook) Click
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
                 <div class="col-sm-3" style="padding-right: 0">
                     <section class="first text-center">
                         <h3 class="thai">เว็บไซต์ธุรกิจ</h3><br>
@@ -255,6 +275,37 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header1 cid-rnvY8t26A8 mbr-parallax-background" id="contact">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-x thai">
+                        <i class="fa fa-fw fa-phone"></i>&nbsp;ติดต่อเรา
+                    </h1>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <input class="form-control" name="full_name" placeholder="กรุณากรอกชื่อจริง-นามสกุลจริง" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="email" placeholder="กรุณากรอก Email ของคุณ" type="email">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="telephone" placeholder="กรุณากรอกเบอร์โทรศัพท์ของคุณ" type="tel">
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" class="form-control" name="message" placeholder="กรุณากรอกข้อความที่ต้องการส่ง" type="text"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button style="font-family: 'Kanit'" class="btn btn-block btn-success" type="submit"><i class="fa fa-fw fa-paper-plane"></i>&nbsp;ส่งข้อความ</button>
                     </div>
                 </div>
             </div>
