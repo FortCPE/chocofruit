@@ -85,16 +85,16 @@
                     <section class="contact">
                         <div class="text-center">
                             <div class="row">
-                                <div class="col-sm-3">
+                                <div class="col-6 col-md-3">
                                     <i class="fa fa-fw fa-phone"></i>&nbsp;09-5530-5914
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-6 col-md-3">
                                     <i class="fa fa-fw fa-envelope"></i>&nbsp;fort2002@hotmail.com
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-6 col-md-3">
                                     <i class="fa fa-fw fa-comments"></i>&nbsp;(Line) fort22lert
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-6 col-md-3">
                                     <i class="fa fa-fw fa-thumbs-up"></i>&nbsp;(Facebook) Click
                                 </div>
                             </div>
@@ -212,7 +212,7 @@
                                 </tr>
                                 <tr>
                                     <td>ออกแบบโลโก้</td>
-                                    <td><i class="fa fa-fw fa-times-circle" style="color: red"></i></td>
+                                    <td><i class="fa fa-fw fa-times-circle" style="color: green"></i></td>
                                     <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
                                     <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
                                     <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
