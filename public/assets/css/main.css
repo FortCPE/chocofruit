@@ -787,4 +787,19 @@ td{
   font-family: 'Kanit';
   font-size: 13px;
   color: #eee;
+
+.box-hover{
+  
+}
+.box-hover:hover ~ .box-change{
+  transition-duration: 1S; 
+  color: #E3E3E3 !important;
+}
+
+.prices-hover:hover{
+  transition-duration: .5S;
+  margin-top: -8px;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc; 
 }
