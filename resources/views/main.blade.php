@@ -198,7 +198,7 @@
                     <img src="assets/images/responsive.png" style="margin-top:30%; width: 100%">
                 </div>
             </div>
-            <div class="row" style="margin-top: 20px;">
+            <!-- <div class="row" style="margin-top: 20px;">
                 <div class="col-sm-4">
                     <div class="card card-hover" style="margin-bottom: 10px;">
                         <div class="card-body text-center thai">
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <section class="prices" id="prices">
@@ -289,7 +289,7 @@
                 <div class="col-sm-3">
                     <div class="card text-center prices-hover" style="border-radius: 20px;">
                         <div class="card-header">
-                            <h3>Premiumd</h3>
+                            <h3>Premium</h3>
                         </div>
                         <div class="card-body">
                             <p>5 หน้าเว็บไซต์</p>
@@ -336,7 +336,7 @@
 
 
 
-            <div class="row" style="margin-top: 20px;">
+            <!-- <div class="row" style="margin-top: 20px;">
                 <div class="col-md-12">
                     <div class="table-responsive">
                         <table class="table table-bordered thai" style="background-color: white;">
@@ -436,7 +436,7 @@
                         </table>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <section class="header1 cid-rnvY8t26A8 mbr-parallax-background" id="contact">
