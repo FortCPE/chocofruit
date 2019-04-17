@@ -766,3 +766,39 @@ td{
 .form-control{
   font-family: 'Kanit';
 }
+
+.box-hover{
+  
+}
+.box-hover:hover ~ .box-change{
+  transition-duration: 1S; 
+  color: #E3E3E3 !important;
+}
+@media only screen and (max-width: 600px) {
+  .box-hover:hover{
+    margin-top: 0px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+  }
+}
+
+.sibling-hover, #parent {
+    
+}
+.sibling-hover:hover ~ .sibling-highlight {
+    background-color: red;
+    color: white;
+}
+#parent:hover .parent-highlight {
+    background-color: red;
+    color: white;
+}
+
+.prices-hover:hover{
+  transition-duration: .5S;
+  margin-top: -8px;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc; 
+}

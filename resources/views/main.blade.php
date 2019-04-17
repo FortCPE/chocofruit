@@ -138,6 +138,67 @@
                 </div>
             </div>
             <div class="row" style="margin-top: 20px;">
+                <div class="col-sm-6" style="padding: 20px;">
+                    <div class="card box-hover" style="border: none;">
+                        <div class="card-body thai">
+                            <h4 class="service-title box-hover">01 | สร้างเว็บไซต์</h4><hr>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <center>
+                                        <i class="far fa-lightbulb" style="width: 40px;height: 100%"></i>
+                                    </center>
+                                </div>
+                                <div class="col-sm-10">
+                                    <span>รับทำเว็บไซต์ ออกแบบตามความต้องการของลูกค้า หน้าเว็บแสดงผล Responsive</span><br><br>
+                                    <a>Read more...</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card box-change" style="border: none;">
+                        <div class="card-body thai">
+                            <h4 class="service-title box-change">02 | แก้ไขเว็บไซต์</h4><hr>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <center>
+                                        <i class="fas fa-wrench"style="width: 40px;height: 100%"></i>
+                                    </center>
+                                </div>
+                                <div class="col-sm-10">
+                                    <span>รับแก้ไขดูแลเว็บไซต์ต่อจากผู้ให้บริการคนเก่า ทำให้เว็บไซต์สามารถกลับมาใช้งานได้ปกติ</span><br><br>
+                                    <a>Read more...</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card box-change" style="border: none;">
+                        <div class="card-body thai">
+                            <h4 class="service-title box-change">03 | ออกแบบระบบ</h4><hr>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <center>
+                                        <i class="fab fa-think-peaks" style="width: 40px;height: 100%"></i>
+                                    </center>
+                                </div>
+                                <div class="col-sm-10">
+                                    <span>รับออกแบบระบบตามที่ลูกค้าต้องการ ระบบห้องพัก ระบบเลือกตั้ง ระบบชุมนุม หรือ อื่นๆ</span><br><br>
+                                    <a>Read more...</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <img src="assets/images/responsive.png" style="margin-top:30%; width: 100%">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
                 <div class="col-sm-4">
                     <div class="card card-hover" style="margin-bottom: 10px;">
                         <div class="card-body text-center thai">
@@ -177,6 +238,104 @@
                     </h1>
                 </div>
             </div>
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-sm-3">
+                    <div class="card text-center prices-hover" style="border-radius: 20px;">
+                        <div class="card-header">
+                            <h3>Starter</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>1 หน้าเว็บไซต์</p>
+                            <p>เเก้ไข 1 ครั้ง/ปี</p>
+                            <p><i class="fa fa-fw fa-times-circle" style="color: red"></i>&nbsp;logo design</p>
+                            <p><i class="fa fa-fw fa-times-circle" style="color: red"></i>&nbsp;ระบบจัดการหลังบ้าน</p>
+                            <p><i class="fa fa-fw fa-times-circle" style="color: red"></i>&nbsp;ระบบแจ้งชำระเงิน</p>
+                            <p><i class="fa fa-fw fa-times-circle" style="color: red"></i>&nbsp;ระบบร้านค้าออนไลน์</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;SSL Certificate</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;แผนที่ Google Map</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;Web Hosting 1 ปี</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;โดเมนเนม .com / .net</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;สอนใช้งานระบบ</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="btn btn-info">3,750 ฿</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card text-center prices-hover" style="border-radius: 20px;">
+                        <div class="card-header">
+                            <h3>Standard</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>3 หน้าเว็บไซต์</p>
+                            <p>เเก้ไข 1 ครั้ง/ปี</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;logo design</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;ระบบจัดการหลังบ้าน</p>
+                            <p><i class="fa fa-fw fa-times-circle" style="color: red"></i>&nbsp;ระบบแจ้งชำระเงิน</p>
+                            <p><i class="fa fa-fw fa-times-circle" style="color: red"></i>&nbsp;ระบบร้านค้าออนไลน์</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;SSL Certificate</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;แผนที่ Google Map</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;Web Hosting 1 ปี</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;โดเมนเนม .com / .net</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;สอนใช้งานระบบ</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="btn btn-info">6,550 ฿</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card text-center prices-hover" style="border-radius: 20px;">
+                        <div class="card-header">
+                            <h3>Premiumd</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>5 หน้าเว็บไซต์</p>
+                            <p>เเก้ไข 2 ครั้ง/ปี</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;logo design</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;ระบบจัดการหลังบ้าน</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;ระบบแจ้งชำระเงิน</p>
+                            <p><i class="fa fa-fw fa-times-circle" style="color: red"></i>&nbsp;ระบบร้านค้าออนไลน์</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;SSL Certificate</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;แผนที่ Google Map</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;Web Hosting 1 ปี</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;โดเมนเนม .com / .net</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;สอนใช้งานระบบ</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="btn btn-info">12,350 ฿</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card text-center prices-hover" style="border-radius: 20px;">
+                        <div class="card-header">
+                            <h3>Superior</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>10 หน้าเว็บไซต์</p>
+                            <p>เเก้ไข 3 ครั้ง/ปี</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;logo design</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;ระบบจัดการหลังบ้าน</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;ระบบแจ้งชำระเงิน</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;ระบบร้านค้าออนไลน์</p>
+                            <p><i class="fa fa-fw fa-check-circle" style="color: green"></i>&nbsp;SSL Certificate</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;แผนที่ Google Map</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;Web Hosting 1 ปี</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;โดเมนเนม .com / .net</p>
+                            <p><span class="badge badge-success">ฟรี</span>&nbsp;สอนใช้งานระบบ</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="btn btn-info">25,550 ฿</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
             <div class="row" style="margin-top: 20px;">
                 <div class="col-md-12">
                     <div class="table-responsive">
@@ -212,7 +371,7 @@
                                 </tr>
                                 <tr>
                                     <td>ออกแบบโลโก้</td>
-                                    <td><i class="fa fa-fw fa-times-circle" style="color: green"></i></td>
+                                    <td><i class="fa fa-fw fa-times-circle" style="color: red"></i></td>
                                     <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
                                     <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
                                     <td><i class="fa fa-fw fa-check-circle" style="color: green"></i></td>
