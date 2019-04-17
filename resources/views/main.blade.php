@@ -311,6 +311,31 @@
             </div>
         </div>
     </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h4>Chocofruit Solution</h4>
+                    <span style="font-family: 'Kanit';">
+                        บริษัทรับสร้างเว็บไซต์ ออกแบบระบบตามที่ลูกค้าต้องการ ระบบฝ่ายบัญชี ฝ่ายบุคคล ฝ่ายขาย หรือ เว็บไซต์ธุรกิจ เว็บไซต์โรงเรียน เว็บไซต์ร้านอาหาร ต่างๆ
+                    </span>
+                </div>
+                <div class="col-sm-3">
+                    <h4 style="font-family: 'Kanit';">บริการของเรา</h4>
+                    <a href="" class="choice">สร้างเว็บไซต์</a><br>
+                    <a href="" class="choice">แก้ไขเว็บไซต์</a><br>
+                    <a href="" class="choice">ออกแบบกราฟฟิค / โลโก้</a><br>
+                    <a href="" class="choice">ออกแบบระบบ</a>
+                </div>
+                <div class="col-sm-3">
+                    <h4 style="font-family: 'Kanit';">ติดต่อเรา</h4>
+                </div>
+                <div class="col-sm-3">
+                    <h4 style="font-family: 'Kanit';">Facebook Page</h4>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/popper/popper.min.js"></script>
     <script src="assets/tether/tether.min.js"></script>

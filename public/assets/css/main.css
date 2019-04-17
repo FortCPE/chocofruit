@@ -637,6 +637,14 @@ body {
 */
   background-color: #FFF;
 }
+.footer {
+  padding-top: 90px;
+  padding-bottom: 90px;
+/*  background-image: url("../images/mbr-1-1920x1281.jpg");
+*/
+  background-color: #000;
+  color: #fff;
+}
 .prices{
   padding-top: 90px;
   padding-bottom: 90px;
@@ -655,6 +663,15 @@ body {
   padding-bottom: 10px;
   background-color: #000;
   color: #EEE;
+}
+@media only screen and (max-width: 600px) {
+  .contact{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000;
+    color: #EEE;
+    font-size: 12px;
+  }
 }
 .first{
   padding-top: 30px;
@@ -765,4 +782,9 @@ td{
 }
 .form-control{
   font-family: 'Kanit';
+}
+.choice{
+  font-family: 'Kanit';
+  font-size: 13px;
+  color: #eee;
 }
